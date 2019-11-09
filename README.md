@@ -44,10 +44,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-   - Default binding
-   - Implicit binding
-   - Explicit binding
-   - New binding
+   - Default binding : In global scope, 'this' will be the window/console Object;
+   - Implicit binding : a function following with dot notation
+   - Explicit binding : call or apply methods is used
+   - New binding : constructor function; refers to the specific instance of the object that is created
 
 5. Why do we need super() in an extended class?
    - It helps to bind the classes together so the parameters can move through
